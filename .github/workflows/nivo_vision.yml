@@ -23,7 +23,9 @@ jobs:
           cache: "pip"
 
       - name: Instalare dependențe
-        run: pip install -r requirements.txt
+        run: |
+          pip uninstall -y google-generativeai || true
+          pip install -r requirements.txt
 
       - name: Rulare Nivo Vision
         env:
