@@ -4,6 +4,7 @@ import re
 import requests
 from google import genai
 from google.genai import types
+from datetime import datetime
 
 # --- Configurare ---
 ANM_PDF_URL = "https://www.meteoromania.ro/Upload-Produse/nivologie/nivologie.pdf"
@@ -45,11 +46,8 @@ Structura JSON trebuie să fie:
 
 
 def download_pdf(url: str) -> bytes:
-    """Descarcă PDF-ul de la ANM."""
     print(f"[1/4] Descărcare PDF de la: {url}")
-    headers = {
-        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
-    }
+    headers = {"User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"}
     response = requests.get(url, headers=headers, timeout=60)
     response.raise_for_status()
     print(f"      PDF descărcat cu succes ({len(response.content) / 1024:.1f} KB)")
@@ -74,25 +72,14 @@ def analyze_with_gemini(pdf_bytes: bytes, api_key: str) -> dict:
     raw_text = re.sub(r"^```(?:json)?\s*", "", raw_text)
     raw_text = re.sub(r"\s*```$", "", raw_text)
     return json.loads(raw_text)
-```
-
-**4. `requirements.txt` — librăria nouă:**
-```
-google-genai>=1.0.0
-requests>=2.31.0
 
 
 def save_json(data: dict, filepath: str):
-    """Salvează datele în fișier JSON."""
     print(f"[4/4] Salvare date în: {filepath}")
-
-    # Adaugă timestamp de procesare
     data["timestamp_procesare"] = datetime.utcnow().isoformat() + "Z"
-
     with open(filepath, "w", encoding="utf-8") as f:
         json.dump(data, f, ensure_ascii=False, indent=2)
-
-    print(f"      Salvat cu succes!")
+    print("      Salvat cu succes!")
 
 
 def main():
@@ -100,23 +87,16 @@ def main():
     print("  Nivo Vision - Procesare Buletin Nivologic ANM")
     print("=" * 50)
 
-    # Verifică API key
     api_key = os.environ.get("GEMINI_API_KEY")
     if not api_key:
-        raise ValueError("GEMINI_API_KEY nu este setat în variabilele de mediu!")
+        raise ValueError("GEMINI_API_KEY nu este setat!")
 
     try:
-        # 1. Descarcă PDF
         pdf_bytes = download_pdf(ANM_PDF_URL)
-
-        # 2. Analizează cu Gemini
         data = analyze_with_gemini(pdf_bytes, api_key)
-
-        # 3. Salvează JSON
         save_json(data, OUTPUT_FILE)
 
-        print("\n✅ Procesare completă!")
-        print(f"   Masive extrase: {len(data.get('masive', []))}")
+        print(f"\n✅ Procesare completă! Masive extrase: {len(data.get('masive', []))}")
         for masiv in data.get("masive", []):
             print(f"   - {masiv.get('nume')}: Risc {masiv.get('risc_avalansa')} ({masiv.get('descriere_risc')})")
 
@@ -133,3 +113,9 @@ def main():
 
 if __name__ == "__main__":
     main()
+```
+
+Și `requirements.txt` actualizat:
+```
+google-genai>=1.0.0
+requests>=2.31.0
