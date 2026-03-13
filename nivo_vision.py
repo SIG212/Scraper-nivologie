@@ -2,11 +2,11 @@ import os
 import json
 import re
 import requests
-import google.generativeai as genai
-from datetime import datetime
+from google import genai
+from google.genai import types
 
 # --- Configurare ---
-ANM_PDF_URL = "https://www.meteoromania.ro/anm/images/nivologie/nivologie.pdf"
+ANM_PDF_URL = "https://www.meteoromania.ro/Upload-Produse/nivologie/nivologie.pdf"
 OUTPUT_FILE = "date_nivologie.json"
 GEMINI_MODEL = "gemini-2.5-flash-preview-05-20"
 
@@ -57,30 +57,29 @@ def download_pdf(url: str) -> bytes:
 
 
 def analyze_with_gemini(pdf_bytes: bytes, api_key: str) -> dict:
-    """Trimite PDF-ul la Gemini și primește datele structurate."""
     print(f"[2/4] Inițializare Gemini ({GEMINI_MODEL})...")
-    genai.configure(api_key=api_key)
-    model = genai.GenerativeModel(model_name=GEMINI_MODEL)
+    client = genai.Client(api_key=api_key)
 
     print("[3/4] Trimitere PDF la Gemini pentru analiză...")
-    response = model.generate_content(
-        [
-            {
-                "mime_type": "application/pdf",
-                "data": pdf_bytes
-            },
+    response = client.models.generate_content(
+        model=GEMINI_MODEL,
+        contents=[
+            types.Part.from_bytes(data=pdf_bytes, mime_type="application/pdf"),
             PROMPT
         ]
     )
 
     raw_text = response.text.strip()
     print(f"      Răspuns primit ({len(raw_text)} caractere)")
-
-    # Curățare răspuns (elimină eventuale ```json ... ```)
     raw_text = re.sub(r"^```(?:json)?\s*", "", raw_text)
     raw_text = re.sub(r"\s*```$", "", raw_text)
-
     return json.loads(raw_text)
+```
+
+**4. `requirements.txt` — librăria nouă:**
+```
+google-genai>=1.0.0
+requests>=2.31.0
 
 
 def save_json(data: dict, filepath: str):
