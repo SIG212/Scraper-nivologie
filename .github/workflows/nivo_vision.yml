@@ -44,13 +44,3 @@ jobs:
           fi
 ```
 
----
-
-Structura de foldere în repository:
-```
-repo/
-├── nivo_vision.py
-├── requirements.txt
-└── .github/
-    └── workflows/
-        └── nivo_vision.yml
