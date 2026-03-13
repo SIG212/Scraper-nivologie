@@ -113,9 +113,3 @@ def main():
 
 if __name__ == "__main__":
     main()
-```
-
-Și `requirements.txt` actualizat:
-```
-google-genai>=1.0.0
-requests>=2.31.0
