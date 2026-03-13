@@ -1,0 +1,56 @@
+name: Actualizare Date Nivologice
+
+on:
+  schedule:
+    - cron: "0 8 * * *"
+  workflow_dispatch:
+
+jobs:
+  nivo-vision:
+    name: Procesare Buletin Nivologic ANM
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Configurare Python 3.11
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+          cache: "pip"
+
+      - name: Instalare dependențe
+        run: pip install -r requirements.txt
+
+      - name: Rulare Nivo Vision
+        env:
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+        run: python nivo_vision.py
+
+      - name: Commit și Push
+        run: |
+          git config --local user.email "github-actions[bot]@users.noreply.github.com"
+          git config --local user.name "github-actions[bot]"
+          git add date_nivologie.json
+          if git diff --staged --quiet; then
+            echo "Nicio modificare detectată"
+          else
+            DATE=$(date +'%Y-%m-%d %H:%M UTC')
+            git commit -m "🏔️ Update date nivologie: $DATE"
+            git push
+          fi
+```
+
+---
+
+Structura de foldere în repository:
+```
+repo/
+├── nivo_vision.py
+├── requirements.txt
+└── .github/
+    └── workflows/
+        └── nivo_vision.yml
