@@ -12,36 +12,55 @@ OUTPUT_FILE = "date_nivologie.json"
 GEMINI_MODEL = "gemini-2.5-flash"
 
 PROMPT = """
-Analizează acest buletin nivologic și extrage datele pentru TOATE masivele montane menționate.
-Pentru fiecare masiv, extrage:
-- numele masivului
-- riscul de avalanșă (număr 1-5)
-- descrierea riscului (ex: "Risc redus", "Risc limitat", "Risc însemnat", "Risc mare", "Risc foarte mare")
-- grosimea stratului de zăpadă (în cm) la stațiile meteorologice menționate
-- altitudinea stației (dacă este disponibilă)
-- orice observații relevante despre condițiile nivologice
-
+Din buletinul nivometeorologic atașat, extrage riscul de avalanșă pentru fiecare masiv montan menționat.
 Returnează DOAR un JSON valid, fără text suplimentar, fără markdown, fără ```json```.
-Structura JSON trebuie să fie:
+Structura exactă:
 {
   "data_actualizare": "YYYY-MM-DD",
-  "sursa": "ANM - Administrația Națională de Meteorologie",
-  "masive": [
-    {
-      "nume": "Numele Masivului",
-      "risc_avalansa": 3,
-      "descriere_risc": "Risc însemnat",
-      "statii": [
-        {
-          "nume_statie": "Numele Stației",
-          "altitudine_m": 2505,
-          "grosime_zapada_cm": 187,
-          "observatii": "Text observații dacă există"
-        }
-      ]
-    }
-  ]
+  "fagaras": {"peste_1800": 3, "sub_1800": 2},
+  "bucegi": {"peste_1800": 3, "sub_1800": 2},
+  "rodnei": {"peste_1800": 3, "sub_1800": 2},
+  "calimani": {"peste_1800": 2, "sub_1800": 2},
+  "bistritei": {"peste_1800": 2, "sub_1800": 2},
+  "ceahlau": {"peste_1800": 2, "sub_1800": 2},
+  "tarcu": {"peste_1800": 3, "sub_1800": 2},
+  "godeanu": {"peste_1800": 3, "sub_1800": 2},
+  "parang": {"peste_1800": 3, "sub_1800": 2},
+  "sureanu": {"peste_1800": 3, "sub_1800": 2},
+  "retezat": {"peste_1800": 3, "sub_1800": 2},
+  "occidentali": {"peste_1800": 2, "sub_1800": 2},
+  "apuseni": {"peste_1800": 2, "sub_1800": 2},
+  "vladeasa": {"peste_1800": 2, "sub_1800": 2},
+  "bihor": {"peste_1800": 2, "sub_1800": 2},
+  "muntele_mare": {"peste_1800": 2, "sub_1800": 2},
+  "gilau": {"peste_1800": 2, "sub_1800": 2},
+  "semenic": {"peste_1800": 2, "sub_1800": 2},
+  "iezer_papusa": {"peste_1800": 3, "sub_1800": 2},
+  "hasmas": {"peste_1800": 2, "sub_1800": 2},
+  "ciucas": {"peste_1800": 2, "sub_1800": 2},
+  "baiului": {"peste_1800": 3, "sub_1800": 2},
+  "postavaru": {"peste_1800": 3, "sub_1800": 2},
+  "piatra_mare": {"peste_1800": 2, "sub_1800": 2},
+  "penteleu": {"peste_1800": 2, "sub_1800": 2},
+  "vrancei": {"peste_1800": 2, "sub_1800": 2},
+  "piatra_craiului": {"peste_1800": 3, "sub_1800": 2},
+  "leaota": {"peste_1800": 3, "sub_1800": 2},
+  "cernei": {"peste_1800": 0, "sub_1800": 0}
 }
+
+Reguli:
+- Niveluri: 0=necunoscut, 1=scăzut, 2=moderat, 3=însemnat, 4=ridicat, 5=foarte ridicat
+- Dacă un masiv apare explicit în buletin, folosește valorile din text
+- Dacă un masiv NU apare explicit, folosește cel mai apropiat geografic ca fallback:
+  - piatra_craiului, leaota, iezer_papusa → fagaras/bucegi
+  - godeanu, sureanu, retezat → tarcu/parang
+  - bistritei, calimani → rodnei dacă diferă, altfel valoarea lor proprie
+  - hasmas, ceahlau → valoarea lor sau orientali general
+  - baiului, postavaru, piatra_craiului → bucegi
+  - ciucas, piatra_mare, vrancei, penteleu → occidentali
+  - semenic → occidentali
+  - cernei → 0 dacă nu e menționat
+- Valorile din structura de mai sus sunt EXEMPLE, nu valori reale — citește din document
 """
 
 
@@ -96,9 +115,10 @@ def main():
         data = analyze_with_gemini(pdf_bytes, api_key)
         save_json(data, OUTPUT_FILE)
 
-        print(f"\n✅ Procesare completă! Masive extrase: {len(data.get('masive', []))}")
-        for masiv in data.get("masive", []):
-            print(f"   - {masiv.get('nume')}: Risc {masiv.get('risc_avalansa')} ({masiv.get('descriere_risc')})")
+        print(f"\n✅ Procesare completă! Data: {data.get('data_actualizare', 'N/A')}")
+        for masiv, valori in data.items():
+            if isinstance(valori, dict) and "peste_1800" in valori:
+                print(f"   - {masiv}: >{valori['peste_1800']} / <{valori['sub_1800']}")
 
     except requests.exceptions.RequestException as e:
         print(f"\n❌ Eroare la descărcarea PDF-ului: {e}")
