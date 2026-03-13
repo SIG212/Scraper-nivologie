@@ -1,167 +1,120 @@
 {
   "data_actualizare": "2026-03-11",
-  "sursa": "ANM - Administrația Națională de Meteorologie",
-  "masive": [
-    {
-      "nume": "MUNȚII FĂGĂRAȘ Și BUCEGI",
-      "risc_avalansa": 3,
-      "descriere_risc": "Risc însemnat",
-      "statii": [
-        {
-          "nume_statie": "Vârful Omu",
-          "altitudine_m": null,
-          "grosime_zapada_cm": 187,
-          "observatii": null
-        },
-        {
-          "nume_statie": "Bâlea-Lac",
-          "altitudine_m": null,
-          "grosime_zapada_cm": 171,
-          "observatii": null
-        },
-        {
-          "nume_statie": "Sinaia",
-          "altitudine_m": null,
-          "grosime_zapada_cm": 45,
-          "observatii": null
-        },
-        {
-          "nume_statie": "Predeal",
-          "altitudine_m": null,
-          "grosime_zapada_cm": 10,
-          "observatii": null
-        },
-        {
-          "nume_statie": "Fundata",
-          "altitudine_m": null,
-          "grosime_zapada_cm": 13,
-          "observatii": null
-        },
-        {
-          "nume_statie": "Păltiniș",
-          "altitudine_m": null,
-          "grosime_zapada_cm": 31,
-          "observatii": null
-        }
-      ],
-      "observatii": "La peste 1800 m: În apropierea crestelor întâlnim în multe zone cruste portante de zăpadă înghețată, cu precădere pe versanții umbriți. Cu toate acestea în partea superioară a zăpezii regăsim un strat de zăpadă incomplet stabilizat în primii 40..50 cm, cu rezistență încă redusă pe anumiți versanţi, umezit la suprafață pe versanții nordici și în profunzime pe cei sudici, mai ales la sub 2000 m. Umezirea zăpezii va continua pe fondul insolației și al temperaturilor situate ușor peste norme, care vor avea valori diurne apropiate de 0 grade în jurul altitudinii de 2200 m. În zona crestelor se menţin plăcile vechi de vânt, unele de grosimi importante, pe versanți cu orientări diferite. Pe unele văi depozitele de zăpadă sunt consistente, local de peste 2 metri. În zona crestelor sunt formate cornișe, unele de mari dimensiuni. Noaptea și dimineaţa la suprafața stratului se vor forma cruste subțiri de îngheţ, ce vor ceda pe parcursul zilei sub 2200 m. Pe pantele înclinate pot apărea curgeri izolate, în special pe versanții de la altitudini de 1800-2200 m și va exista riscul declanșării avalanșelor de dimensiuni medii și izolat chiar mari, mai ales la supraîncărcări ale stratului cu turiști sau schiori, care să angreneze stratul incomplet stabilizat de la suprafață, plăcile vechi de vânt, iar în cazuri izolate unele straturi din profunzime, până la fund pe anumiți versanți sudici - risc însemnat (3). Sub 1800 m: Stratul de zăpadă e consistent și umezit, depășind local 30..35 cm la altitudini de 1500 m. Insolația și temperaturile diurne pozitive vor umezi în continuare stratul. Se pot declanșa unele curgeri pe anumite pante sau văi lipsite de vegetație sau avalanșe de dimensiuni medii înspre 1800 m, chiar până la fund, riscul fiind amplificat la supraîncărcări ale stratului - risc moderat(2). În cazuri rare avalanșe de dimensiuni mai mari pot coborî de la peste 1800 m spre altitudini mai joase, riscul fiind mai crescut pe văile și pantele ce pornesc din zonele înalte sau de pe fețele mai încărcate."
-    },
-    {
-      "nume": "CARPAȚII MERIDIONALI: ȚARCU-GODEANU și PARÂNG-ȘUREANU",
-      "risc_avalansa": 3,
-      "descriere_risc": "Risc însemnat",
-      "statii": [
-        {
-          "nume_statie": "Țarcu",
-          "altitudine_m": null,
-          "grosime_zapada_cm": 151,
-          "observatii": null
-        },
-        {
-          "nume_statie": "Cuntu",
-          "altitudine_m": null,
-          "grosime_zapada_cm": 42,
-          "observatii": null
-        },
-        {
-          "nume_statie": "Parâng",
-          "altitudine_m": null,
-          "grosime_zapada_cm": 28,
-          "observatii": null
-        }
-      ],
-      "observatii": "La peste 1800 m: În apropierea crestelor întâlnim în multe zone cruste portante de zăpadă înghețată, cu precădere pe versanții umbriți. Cu toate acestea în partea superioară a zăpezii regăsim un strat de 30..50 cm cu rezistență încă scăzută pe anumiți versanți, umezit în partea superioară pe versanţii nordici și în profunzime pe cei sudici, mai ales la sub 2000 m. Insolația și temperaturile diurne apropiate de 0 grade în jurul altitudinii de 2200 m vor duce la umezirea suplimentară a stratului superficial și la curgeri izolate în zona 1800-2200 m, ce pot angrena în cazuri excepționale și unele straturi din profunzime, chiar până la fund pe anumiți versanţi sudici. În zona crestelor se întâlnesc plăci de vânt pe versanți cu orientări diferite și sunt formate cornișe, unele de mari dimensiuni. Pe văi depozitele de zăpadă sunt consistente, depășind local 2 metri. Pe pantele înclinate, mai ales la supraîncărcări, se pot semnala avalanșe de dimensiuni medii și izolat mari, care să angreneze straturile de zăpadă cu rezistență moderată din partea superioară, plăcile de vânt formate în zonele înalte, precum și unele straturi din profunzime - risc însemnat (3). Sub 1800 m: Stratul de zăpadă este consistent până înspre altitudini joase, depășind 30-40 cm la altitudini de 1500 m. Insolația și temperaturile diurne pozitive vor duce la umezirea suplimentară a stratului. Se pot semnala unele curgeri pe anumite pante sau văi lipsite de vegetație și avalanșe de dimensiuni medii înspre 1800 m, chiar până la fund, cu precădere la supraîncărcări ale stratului. Riscul va fi moderat(2). Avalanșe de dimensiuni mai mari pot coborî în cazuri izolate de la peste 1800 m spre altitudini mai joase, riscul fiind mai crescut pe văile și pantele ce pornesc din zonele înalte și de pe fețele mai încărcate."
-    },
-    {
-      "nume": "CARPAŢII ORIENTALI: MASIVUL RODNEI",
-      "risc_avalansa": 3,
-      "descriere_risc": "Risc însemnat",
-      "statii": [
-        {
-          "nume_statie": "Iezer-Rodnei",
-          "altitudine_m": null,
-          "grosime_zapada_cm": 35,
-          "observatii": null
-        }
-      ],
-      "observatii": "La peste 1800 m: În apropierea crestelor întâlnim în multe zone cruste portante de zăpadă înghețată. Cu toate acestea, în partea superioară a zăpezii întâlnim un strat de 30..35 cm ce prezintă local o rezistență relativ scăzută. Insolația și temperaturile diurne apropiate de 0 grade la altitudini de 2100 m vor continua să umezească ușor zăpada, ceea ce poate duce la curgeri izolate, în special pe versanții însoriți. În profunzime se întâlnesc cruste mai vechi de gheață, dar izolat și zone cu cristale tip cupă pe versanţii nordici, ce se pot constitui în planuri de alunecare pentru zăpada de deasupra. În zona crestelor se întâlnesc plăci mai vechi de vânt, de grosimi variabile, pe versanți cu orientări diferite. Depozite mai consistente se întâlnesc pe văile adăpostite, local de 1-2 metri. Pe pantele înclinate va exista riscul unor curgeri sau al declanșării de avalanșe de dimensiuni medii și cu totul izolat mari, care să angreneze plăcile de vânt prezente în zona crestelor și stratul incomplet stabilizat din partea superioară, iar izolat pe anumiți versanți sudici chiar întregul strat, riscul fiind prezent mai ales la suprasarcini - risc însemnat(3). Sub 1800 m: stratul de zăpadă este mai consistent la altitudini de peste 1500 m, cu depozite mai însemnate pe anumite văi. Insolația și temperaturile diurne pozitive vor duce la umezirea suplimentară a stratului. Se mențin condițiile pentru avalanșe de dimensiuni mici și izolat medii pe unele văi apropiate de 1800 m, cu depozite mai consistente, riscul fiind prezent la supraîncărcări - risc moderat(2)."
-    },
-    {
-      "nume": "CARPAŢII ORIENTALI: MASIVELE CĂLIMANI-BISTRIŢEI, CEAHLĂU",
-      "risc_avalansa": 2,
-      "descriere_risc": "Risc moderat",
-      "statii": [
-        {
-          "nume_statie": "Călimani",
-          "altitudine_m": null,
-          "grosime_zapada_cm": 110,
-          "observatii": null
-        },
-        {
-          "nume_statie": "Lăcăuți",
-          "altitudine_m": null,
-          "grosime_zapada_cm": 78,
-          "observatii": null
-        },
-        {
-          "nume_statie": "Bucin",
-          "altitudine_m": null,
-          "grosime_zapada_cm": 40,
-          "observatii": null
-        },
-        {
-          "nume_statie": "Ceahlău",
-          "altitudine_m": null,
-          "grosime_zapada_cm": 38,
-          "observatii": null
-        },
-        {
-          "nume_statie": "Penteleu",
-          "altitudine_m": null,
-          "grosime_zapada_cm": 24,
-          "observatii": null
-        },
-        {
-          "nume_statie": "Poiana Stampei",
-          "altitudine_m": null,
-          "grosime_zapada_cm": 1,
-          "observatii": null
-        }
-      ],
-      "observatii": "La peste 1800 m: În apropierea crestelor întâlnim în multe zone cruste portante de zăpadă înghețată. Cu toate acestea, în partea superioară a zăpezii întâlnim un strat incomplet stabilizat în primii 20 cm. Insolația și temperaturile diurne ușor pozitive la orele amiezilor vor continua să umezească zăpada, ceea ce poate duce la curgeri izolate, în special pe versanții însoriți. În profunzime se întâlnesc cruste mai vechi de gheață, dar izolat și zone cu cristale tip cupă pe versanţii nordici. În zona crestelor se întâlnesc unele plăci vechi de vânt. Depozite mai consistente se întâlnesc pe văile adăpostite, local de 1-2 metri. Pe pantele înclinate va exista riscul unor curgeri sau al declanșării de avalanșe de dimensiuni mici și medii, care să angreneze plăcile de vânt prezente în zona crestelor și stratul incomplet stabilizat din partea superioară, riscul fiind prezent mai ales la suprasarcini - risc risc moderat(2). Sub 1800 m: stratul de zăpadă este mai consistent la altitudini de peste 1500 m, cu depozite mai însemnate pe anumite văi și cu zone cu zăpadă incomplet stabilizată, ce este depusă pe anumite pante nordice peste vechea zăpadă, întărită, cu care are local coeziune redusă. Insolația și temperaturile diurne pozitive vor duce la umezirea suplimentară a stratului. Se mențin condițiile pentru avalanșe de dimensiuni mici și izolat medii pe unele văi apropiate de 1800 m, cu depozite mai consistente, izolat chiar până la fund pe anumiți versanți sudici, riscul fiind prezent la supraîncărcări - risc moderat(2)."
-    },
-    {
-      "nume": "CARPAŢII OCCIDENTALI",
-      "risc_avalansa": 2,
-      "descriere_risc": "Risc moderat",
-      "statii": [
-        {
-          "nume_statie": "Semenic",
-          "altitudine_m": null,
-          "grosime_zapada_cm": 69,
-          "observatii": null
-        },
-        {
-          "nume_statie": "Băișoara",
-          "altitudine_m": null,
-          "grosime_zapada_cm": 38,
-          "observatii": null
-        },
-        {
-          "nume_statie": "Vlădeasa 1800",
-          "altitudine_m": 1800,
-          "grosime_zapada_cm": 33,
-          "observatii": null
-        },
-        {
-          "nume_statie": "Stâna de Vale",
-          "altitudine_m": null,
-          "grosime_zapada_cm": 23,
-          "observatii": null
-        }
-      ],
-      "observatii": "În apropierea crestelor întâlnim zone cu cruste portante de zăpadă înghețată. Stratul de zăpadă are în medie grosimi de 30-35 cm și izolat mai mult pe anumiți versanți nordici, cu unele depozite mai importante de zăpadă pe văile adăpostite. Insolația și temperaturile diurne pozitive vor duce la umezirea suplimentară și la tasarea stratului. Pe pantele înclinate va exista riscul declanșării unor curgeri sau avalanșe de dimensiuni mici și izolat medii pe văile și pantele cu acumulări mai importante, care să angreneze zăpada cu rezistență medie din partea superioară, precum și unele plăci vechi de vânt din apropierea crestelor, mai ales la suprasarcini. Riscul de avalanșă va fi moderat(2)."
-    }
-  ],
-  "timestamp_procesare": "2026-03-13T09:04:16.861925Z"
+  "fagaras": {
+    "peste_1800": 3,
+    "sub_1800": 2
+  },
+  "bucegi": {
+    "peste_1800": 3,
+    "sub_1800": 2
+  },
+  "rodnei": {
+    "peste_1800": 3,
+    "sub_1800": 2
+  },
+  "calimani": {
+    "peste_1800": 2,
+    "sub_1800": 2
+  },
+  "bistritei": {
+    "peste_1800": 2,
+    "sub_1800": 2
+  },
+  "ceahlau": {
+    "peste_1800": 2,
+    "sub_1800": 2
+  },
+  "tarcu": {
+    "peste_1800": 3,
+    "sub_1800": 2
+  },
+  "godeanu": {
+    "peste_1800": 3,
+    "sub_1800": 2
+  },
+  "parang": {
+    "peste_1800": 3,
+    "sub_1800": 2
+  },
+  "sureanu": {
+    "peste_1800": 3,
+    "sub_1800": 2
+  },
+  "retezat": {
+    "peste_1800": 3,
+    "sub_1800": 2
+  },
+  "occidentali": {
+    "peste_1800": 2,
+    "sub_1800": 2
+  },
+  "apuseni": {
+    "peste_1800": 2,
+    "sub_1800": 2
+  },
+  "vladeasa": {
+    "peste_1800": 2,
+    "sub_1800": 2
+  },
+  "bihor": {
+    "peste_1800": 2,
+    "sub_1800": 2
+  },
+  "muntele_mare": {
+    "peste_1800": 2,
+    "sub_1800": 2
+  },
+  "gilau": {
+    "peste_1800": 2,
+    "sub_1800": 2
+  },
+  "semenic": {
+    "peste_1800": 2,
+    "sub_1800": 2
+  },
+  "iezer_papusa": {
+    "peste_1800": 3,
+    "sub_1800": 2
+  },
+  "hasmas": {
+    "peste_1800": 2,
+    "sub_1800": 2
+  },
+  "ciucas": {
+    "peste_1800": 2,
+    "sub_1800": 2
+  },
+  "baiului": {
+    "peste_1800": 3,
+    "sub_1800": 2
+  },
+  "postavaru": {
+    "peste_1800": 3,
+    "sub_1800": 2
+  },
+  "piatra_mare": {
+    "peste_1800": 2,
+    "sub_1800": 2
+  },
+  "penteleu": {
+    "peste_1800": 2,
+    "sub_1800": 2
+  },
+  "vrancei": {
+    "peste_1800": 2,
+    "sub_1800": 2
+  },
+  "piatra_craiului": {
+    "peste_1800": 3,
+    "sub_1800": 2
+  },
+  "leaota": {
+    "peste_1800": 3,
+    "sub_1800": 2
+  },
+  "cernei": {
+    "peste_1800": 0,
+    "sub_1800": 0
+  },
+  "timestamp_procesare": "2026-03-13T09:09:38.927970Z"
 }
