@@ -9,7 +9,7 @@ from datetime import datetime
 # --- Configurare ---
 ANM_PDF_URL = "https://www.meteoromania.ro/Upload-Produse/nivologie/nivologie.pdf"
 OUTPUT_FILE = "date_nivologie.json"
-GEMINI_MODEL = "gemini-2.5-flash-preview-05-20"
+GEMINI_MODEL = "gemini-2.5-flash-preview-04-17"
 
 PROMPT = """
 Analizează acest buletin nivologic și extrage datele pentru TOATE masivele montane menționate.
