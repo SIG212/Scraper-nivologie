@@ -42,5 +42,3 @@ jobs:
             git commit -m "🏔️ Update date nivologie: $DATE"
             git push
           fi
-```
-
