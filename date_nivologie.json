@@ -74,7 +74,7 @@
   },
   "iezer_papusa": {
     "peste_1800": 3,
-    "sub_1800": 3
+    "sub_1800": 2
   },
   "hasmas": {
     "peste_1800": 3,
@@ -116,5 +116,5 @@
     "peste_1800": 0,
     "sub_1800": 0
   },
-  "timestamp_procesare": "2026-03-31T09:07:22.247290Z"
+  "timestamp_procesare": "2026-04-01T09:12:53.781221Z"
 }
