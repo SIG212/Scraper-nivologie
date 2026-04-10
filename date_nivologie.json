@@ -22,7 +22,7 @@
   },
   "ceahlau": {
     "peste_1800": 2,
-    "sub_1800": 1
+    "sub_1800": 2
   },
   "tarcu": {
     "peste_1800": 3,
@@ -116,5 +116,5 @@
     "peste_1800": 0,
     "sub_1800": 0
   },
-  "timestamp_procesare": "2026-04-09T09:14:53.423531Z"
+  "timestamp_procesare": "2026-04-10T09:16:29.282312Z"
 }
