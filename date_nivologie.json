@@ -69,7 +69,7 @@
     "sub_1800": 1
   },
   "semenic": {
-    "peste_1800": 1,
+    "peste_1800": 2,
     "sub_1800": 1
   },
   "iezer_papusa": {
@@ -81,7 +81,7 @@
     "sub_1800": 1
   },
   "ciucas": {
-    "peste_1800": 3,
+    "peste_1800": 2,
     "sub_1800": 1
   },
   "baiului": {
@@ -116,5 +116,5 @@
     "peste_1800": 0,
     "sub_1800": 0
   },
-  "timestamp_procesare": "2026-04-23T09:48:57.690244Z"
+  "timestamp_procesare": "2026-04-24T09:48:57.048016Z"
 }
