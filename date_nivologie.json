@@ -81,7 +81,7 @@
     "sub_1800": 1
   },
   "ciucas": {
-    "peste_1800": 2,
+    "peste_1800": 3,
     "sub_1800": 1
   },
   "baiului": {
@@ -93,7 +93,7 @@
     "sub_1800": 1
   },
   "piatra_mare": {
-    "peste_1800": 2,
+    "peste_1800": 3,
     "sub_1800": 1
   },
   "penteleu": {
@@ -116,5 +116,5 @@
     "peste_1800": 0,
     "sub_1800": 0
   },
-  "timestamp_procesare": "2026-04-25T08:59:47.604120Z"
+  "timestamp_procesare": "2026-04-26T09:07:12.278270Z"
 }
