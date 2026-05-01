@@ -10,19 +10,19 @@
   },
   "rodnei": {
     "peste_1800": 1,
-    "sub_1800": 1
+    "sub_1800": 0
   },
   "calimani": {
     "peste_1800": 1,
-    "sub_1800": 1
+    "sub_1800": 0
   },
   "bistritei": {
     "peste_1800": 1,
-    "sub_1800": 1
+    "sub_1800": 0
   },
   "ceahlau": {
     "peste_1800": 1,
-    "sub_1800": 1
+    "sub_1800": 0
   },
   "tarcu": {
     "peste_1800": 1,
@@ -78,7 +78,7 @@
   },
   "hasmas": {
     "peste_1800": 1,
-    "sub_1800": 1
+    "sub_1800": 0
   },
   "ciucas": {
     "peste_1800": 0,
@@ -116,5 +116,5 @@
     "peste_1800": 0,
     "sub_1800": 0
   },
-  "timestamp_procesare": "2026-04-30T10:10:49.704468Z"
+  "timestamp_procesare": "2026-05-01T09:50:35.837688Z"
 }
