@@ -1,5 +1,5 @@
 {
-  "data_actualizare": "2026-05-01",
+  "data_actualizare": "2026-05-04",
   "fagaras": {
     "peste_1800": 2,
     "sub_1800": 1
@@ -116,5 +116,5 @@
     "peste_1800": 0,
     "sub_1800": 0
   },
-  "timestamp_procesare": "2026-05-02T09:12:19.980412Z"
+  "timestamp_procesare": "2026-05-03T09:24:48.930079Z"
 }
