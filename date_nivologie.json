@@ -10,39 +10,39 @@
   },
   "rodnei": {
     "peste_1800": 1,
-    "sub_1800": 0
+    "sub_1800": 1
   },
   "calimani": {
     "peste_1800": 2,
-    "sub_1800": 0
+    "sub_1800": 1
   },
   "bistritei": {
     "peste_1800": 2,
-    "sub_1800": 0
+    "sub_1800": 1
   },
   "ceahlau": {
     "peste_1800": 1,
-    "sub_1800": 0
+    "sub_1800": 1
   },
   "tarcu": {
     "peste_1800": 2,
-    "sub_1800": 0
+    "sub_1800": 1
   },
   "godeanu": {
     "peste_1800": 2,
-    "sub_1800": 0
+    "sub_1800": 1
   },
   "parang": {
     "peste_1800": 2,
-    "sub_1800": 0
+    "sub_1800": 1
   },
   "sureanu": {
     "peste_1800": 2,
-    "sub_1800": 0
+    "sub_1800": 1
   },
   "retezat": {
     "peste_1800": 2,
-    "sub_1800": 0
+    "sub_1800": 1
   },
   "occidentali": {
     "peste_1800": 0,
@@ -78,7 +78,7 @@
   },
   "hasmas": {
     "peste_1800": 1,
-    "sub_1800": 0
+    "sub_1800": 1
   },
   "ciucas": {
     "peste_1800": 0,
@@ -116,5 +116,5 @@
     "peste_1800": 0,
     "sub_1800": 0
   },
-  "timestamp_procesare": "2026-05-05T10:07:05.752761Z"
+  "timestamp_procesare": "2026-05-06T10:23:00.473766Z"
 }
