@@ -77,7 +77,7 @@
     "sub_1800": 1
   },
   "hasmas": {
-    "peste_1800": 1,
+    "peste_1800": 2,
     "sub_1800": 1
   },
   "ciucas": {
@@ -116,5 +116,5 @@
     "peste_1800": 0,
     "sub_1800": 0
   },
-  "timestamp_procesare": "2026-05-07T10:28:33.865487Z"
+  "timestamp_procesare": "2026-05-08T09:28:08.346143Z"
 }
