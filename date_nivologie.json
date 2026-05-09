@@ -1,5 +1,5 @@
 {
-  "data_actualizare": "2026-05-06",
+  "data_actualizare": "2026-05-08",
   "fagaras": {
     "peste_1800": 3,
     "sub_1800": 1
@@ -77,12 +77,12 @@
     "sub_1800": 1
   },
   "hasmas": {
-    "peste_1800": 2,
+    "peste_1800": 1,
     "sub_1800": 1
   },
   "ciucas": {
-    "peste_1800": 0,
-    "sub_1800": 0
+    "peste_1800": 3,
+    "sub_1800": 1
   },
   "baiului": {
     "peste_1800": 3,
@@ -93,16 +93,16 @@
     "sub_1800": 1
   },
   "piatra_mare": {
-    "peste_1800": 0,
-    "sub_1800": 0
+    "peste_1800": 3,
+    "sub_1800": 1
   },
   "penteleu": {
-    "peste_1800": 0,
-    "sub_1800": 0
+    "peste_1800": 2,
+    "sub_1800": 1
   },
   "vrancei": {
-    "peste_1800": 0,
-    "sub_1800": 0
+    "peste_1800": 2,
+    "sub_1800": 1
   },
   "piatra_craiului": {
     "peste_1800": 3,
@@ -116,5 +116,5 @@
     "peste_1800": 0,
     "sub_1800": 0
   },
-  "timestamp_procesare": "2026-05-08T09:28:08.346143Z"
+  "timestamp_procesare": "2026-05-09T09:24:03.771112Z"
 }
