@@ -77,11 +77,11 @@
     "sub_1800": 1
   },
   "hasmas": {
-    "peste_1800": 1,
+    "peste_1800": 2,
     "sub_1800": 1
   },
   "ciucas": {
-    "peste_1800": 3,
+    "peste_1800": 2,
     "sub_1800": 1
   },
   "baiului": {
@@ -116,5 +116,5 @@
     "peste_1800": 0,
     "sub_1800": 0
   },
-  "timestamp_procesare": "2026-05-09T09:24:03.771112Z"
+  "timestamp_procesare": "2026-05-10T09:41:22.661357Z"
 }
