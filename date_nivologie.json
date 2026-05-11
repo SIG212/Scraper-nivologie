@@ -10,39 +10,39 @@
   },
   "rodnei": {
     "peste_1800": 1,
-    "sub_1800": 1
+    "sub_1800": 0
   },
   "calimani": {
     "peste_1800": 2,
-    "sub_1800": 1
+    "sub_1800": 0
   },
   "bistritei": {
     "peste_1800": 2,
-    "sub_1800": 1
+    "sub_1800": 0
   },
   "ceahlau": {
     "peste_1800": 1,
-    "sub_1800": 1
+    "sub_1800": 0
   },
   "tarcu": {
     "peste_1800": 2,
-    "sub_1800": 1
+    "sub_1800": 0
   },
   "godeanu": {
     "peste_1800": 2,
-    "sub_1800": 1
+    "sub_1800": 0
   },
   "parang": {
     "peste_1800": 2,
-    "sub_1800": 1
+    "sub_1800": 0
   },
   "sureanu": {
     "peste_1800": 2,
-    "sub_1800": 1
+    "sub_1800": 0
   },
   "retezat": {
     "peste_1800": 2,
-    "sub_1800": 1
+    "sub_1800": 0
   },
   "occidentali": {
     "peste_1800": 0,
@@ -77,12 +77,12 @@
     "sub_1800": 1
   },
   "hasmas": {
-    "peste_1800": 2,
-    "sub_1800": 1
+    "peste_1800": 1,
+    "sub_1800": 0
   },
   "ciucas": {
-    "peste_1800": 2,
-    "sub_1800": 1
+    "peste_1800": 0,
+    "sub_1800": 0
   },
   "baiului": {
     "peste_1800": 3,
@@ -93,16 +93,16 @@
     "sub_1800": 1
   },
   "piatra_mare": {
-    "peste_1800": 3,
-    "sub_1800": 1
+    "peste_1800": 0,
+    "sub_1800": 0
   },
   "penteleu": {
-    "peste_1800": 2,
-    "sub_1800": 1
+    "peste_1800": 0,
+    "sub_1800": 0
   },
   "vrancei": {
-    "peste_1800": 2,
-    "sub_1800": 1
+    "peste_1800": 0,
+    "sub_1800": 0
   },
   "piatra_craiului": {
     "peste_1800": 3,
@@ -116,5 +116,5 @@
     "peste_1800": 0,
     "sub_1800": 0
   },
-  "timestamp_procesare": "2026-05-10T09:41:22.661357Z"
+  "timestamp_procesare": "2026-05-11T11:29:22.050903Z"
 }
