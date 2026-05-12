@@ -1,48 +1,48 @@
 {
-  "data_actualizare": "2026-05-08",
+  "data_actualizare": "2026-05-11",
   "fagaras": {
     "peste_1800": 3,
-    "sub_1800": 1
+    "sub_1800": 2
   },
   "bucegi": {
     "peste_1800": 3,
-    "sub_1800": 1
+    "sub_1800": 2
   },
   "rodnei": {
     "peste_1800": 1,
-    "sub_1800": 0
+    "sub_1800": 2
   },
   "calimani": {
     "peste_1800": 2,
-    "sub_1800": 0
+    "sub_1800": 2
   },
   "bistritei": {
     "peste_1800": 2,
-    "sub_1800": 0
+    "sub_1800": 2
   },
   "ceahlau": {
     "peste_1800": 1,
-    "sub_1800": 0
+    "sub_1800": 2
   },
   "tarcu": {
     "peste_1800": 2,
-    "sub_1800": 0
+    "sub_1800": 2
   },
   "godeanu": {
     "peste_1800": 2,
-    "sub_1800": 0
+    "sub_1800": 2
   },
   "parang": {
     "peste_1800": 2,
-    "sub_1800": 0
+    "sub_1800": 2
   },
   "sureanu": {
     "peste_1800": 2,
-    "sub_1800": 0
+    "sub_1800": 2
   },
   "retezat": {
     "peste_1800": 2,
-    "sub_1800": 0
+    "sub_1800": 2
   },
   "occidentali": {
     "peste_1800": 0,
@@ -74,11 +74,11 @@
   },
   "iezer_papusa": {
     "peste_1800": 3,
-    "sub_1800": 1
+    "sub_1800": 2
   },
   "hasmas": {
     "peste_1800": 1,
-    "sub_1800": 0
+    "sub_1800": 2
   },
   "ciucas": {
     "peste_1800": 0,
@@ -86,11 +86,11 @@
   },
   "baiului": {
     "peste_1800": 3,
-    "sub_1800": 1
+    "sub_1800": 2
   },
   "postavaru": {
     "peste_1800": 3,
-    "sub_1800": 1
+    "sub_1800": 2
   },
   "piatra_mare": {
     "peste_1800": 0,
@@ -106,15 +106,15 @@
   },
   "piatra_craiului": {
     "peste_1800": 3,
-    "sub_1800": 1
+    "sub_1800": 2
   },
   "leaota": {
     "peste_1800": 3,
-    "sub_1800": 1
+    "sub_1800": 2
   },
   "cernei": {
     "peste_1800": 0,
     "sub_1800": 0
   },
-  "timestamp_procesare": "2026-05-11T11:29:22.050903Z"
+  "timestamp_procesare": "2026-05-12T10:36:29.914997Z"
 }
