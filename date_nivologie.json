@@ -73,7 +73,7 @@
     "sub_1800": 1
   },
   "iezer_papusa": {
-    "peste_1800": 1,
+    "peste_1800": 2,
     "sub_1800": 1
   },
   "hasmas": {
@@ -85,11 +85,11 @@
     "sub_1800": 1
   },
   "baiului": {
-    "peste_1800": 1,
+    "peste_1800": 2,
     "sub_1800": 1
   },
   "postavaru": {
-    "peste_1800": 1,
+    "peste_1800": 2,
     "sub_1800": 1
   },
   "piatra_mare": {
@@ -105,16 +105,16 @@
     "sub_1800": 1
   },
   "piatra_craiului": {
-    "peste_1800": 1,
+    "peste_1800": 2,
     "sub_1800": 1
   },
   "leaota": {
-    "peste_1800": 1,
+    "peste_1800": 2,
     "sub_1800": 1
   },
   "cernei": {
     "peste_1800": 0,
     "sub_1800": 0
   },
-  "timestamp_procesare": "2026-05-14T10:24:09.848457Z"
+  "timestamp_procesare": "2026-05-15T10:29:18.984557Z"
 }
