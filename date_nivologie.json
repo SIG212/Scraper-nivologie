@@ -81,7 +81,7 @@
     "sub_1800": 0
   },
   "ciucas": {
-    "peste_1800": 0,
+    "peste_1800": 1,
     "sub_1800": 0
   },
   "baiului": {
@@ -93,15 +93,15 @@
     "sub_1800": 1
   },
   "piatra_mare": {
-    "peste_1800": 0,
+    "peste_1800": 1,
     "sub_1800": 0
   },
   "penteleu": {
-    "peste_1800": 0,
+    "peste_1800": 1,
     "sub_1800": 0
   },
   "vrancei": {
-    "peste_1800": 0,
+    "peste_1800": 1,
     "sub_1800": 0
   },
   "piatra_craiului": {
@@ -116,5 +116,5 @@
     "peste_1800": 0,
     "sub_1800": 0
   },
-  "timestamp_procesare": "2026-05-19T11:24:49.226443Z"
+  "timestamp_procesare": "2026-05-20T10:56:26.187768Z"
 }
