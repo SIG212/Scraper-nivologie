@@ -1,5 +1,5 @@
 {
-  "data_actualizare": "2026-05-17",
+  "data_actualizare": "2026-05-20",
   "fagaras": {
     "peste_1800": 2,
     "sub_1800": 1
@@ -10,67 +10,67 @@
   },
   "rodnei": {
     "peste_1800": 1,
-    "sub_1800": 0
+    "sub_1800": 1
   },
   "calimani": {
     "peste_1800": 1,
-    "sub_1800": 0
+    "sub_1800": 1
   },
   "bistritei": {
     "peste_1800": 1,
-    "sub_1800": 0
+    "sub_1800": 1
   },
   "ceahlau": {
     "peste_1800": 1,
-    "sub_1800": 0
+    "sub_1800": 1
   },
   "tarcu": {
     "peste_1800": 1,
-    "sub_1800": 0
+    "sub_1800": 1
   },
   "godeanu": {
     "peste_1800": 1,
-    "sub_1800": 0
+    "sub_1800": 1
   },
   "parang": {
     "peste_1800": 1,
-    "sub_1800": 0
+    "sub_1800": 1
   },
   "sureanu": {
     "peste_1800": 1,
-    "sub_1800": 0
+    "sub_1800": 1
   },
   "retezat": {
     "peste_1800": 1,
-    "sub_1800": 0
+    "sub_1800": 1
   },
   "occidentali": {
-    "peste_1800": 0,
-    "sub_1800": 0
+    "peste_1800": 1,
+    "sub_1800": 1
   },
   "apuseni": {
-    "peste_1800": 0,
-    "sub_1800": 0
+    "peste_1800": 1,
+    "sub_1800": 1
   },
   "vladeasa": {
-    "peste_1800": 0,
-    "sub_1800": 0
+    "peste_1800": 1,
+    "sub_1800": 1
   },
   "bihor": {
-    "peste_1800": 0,
-    "sub_1800": 0
+    "peste_1800": 1,
+    "sub_1800": 1
   },
   "muntele_mare": {
-    "peste_1800": 0,
-    "sub_1800": 0
+    "peste_1800": 1,
+    "sub_1800": 1
   },
   "gilau": {
-    "peste_1800": 0,
-    "sub_1800": 0
+    "peste_1800": 1,
+    "sub_1800": 1
   },
   "semenic": {
-    "peste_1800": 0,
-    "sub_1800": 0
+    "peste_1800": 1,
+    "sub_1800": 1
   },
   "iezer_papusa": {
     "peste_1800": 2,
@@ -78,11 +78,11 @@
   },
   "hasmas": {
     "peste_1800": 1,
-    "sub_1800": 0
+    "sub_1800": 1
   },
   "ciucas": {
     "peste_1800": 1,
-    "sub_1800": 0
+    "sub_1800": 1
   },
   "baiului": {
     "peste_1800": 2,
@@ -94,15 +94,15 @@
   },
   "piatra_mare": {
     "peste_1800": 1,
-    "sub_1800": 0
+    "sub_1800": 1
   },
   "penteleu": {
     "peste_1800": 1,
-    "sub_1800": 0
+    "sub_1800": 1
   },
   "vrancei": {
     "peste_1800": 1,
-    "sub_1800": 0
+    "sub_1800": 1
   },
   "piatra_craiului": {
     "peste_1800": 2,
@@ -116,5 +116,5 @@
     "peste_1800": 0,
     "sub_1800": 0
   },
-  "timestamp_procesare": "2026-05-20T10:56:26.187768Z"
+  "timestamp_procesare": "2026-05-21T11:30:53.333901Z"
 }
