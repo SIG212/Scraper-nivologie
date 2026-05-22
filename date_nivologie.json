@@ -46,31 +46,31 @@
   },
   "occidentali": {
     "peste_1800": 1,
-    "sub_1800": 1
+    "sub_1800": 0
   },
   "apuseni": {
     "peste_1800": 1,
-    "sub_1800": 1
+    "sub_1800": 0
   },
   "vladeasa": {
     "peste_1800": 1,
-    "sub_1800": 1
+    "sub_1800": 0
   },
   "bihor": {
     "peste_1800": 1,
-    "sub_1800": 1
+    "sub_1800": 0
   },
   "muntele_mare": {
     "peste_1800": 1,
-    "sub_1800": 1
+    "sub_1800": 0
   },
   "gilau": {
     "peste_1800": 1,
-    "sub_1800": 1
+    "sub_1800": 0
   },
   "semenic": {
     "peste_1800": 1,
-    "sub_1800": 1
+    "sub_1800": 0
   },
   "iezer_papusa": {
     "peste_1800": 2,
@@ -82,7 +82,7 @@
   },
   "ciucas": {
     "peste_1800": 1,
-    "sub_1800": 1
+    "sub_1800": 0
   },
   "baiului": {
     "peste_1800": 2,
@@ -94,15 +94,15 @@
   },
   "piatra_mare": {
     "peste_1800": 1,
-    "sub_1800": 1
+    "sub_1800": 0
   },
   "penteleu": {
     "peste_1800": 1,
-    "sub_1800": 1
+    "sub_1800": 0
   },
   "vrancei": {
     "peste_1800": 1,
-    "sub_1800": 1
+    "sub_1800": 0
   },
   "piatra_craiului": {
     "peste_1800": 2,
@@ -116,5 +116,5 @@
     "peste_1800": 0,
     "sub_1800": 0
   },
-  "timestamp_procesare": "2026-05-21T11:30:53.333901Z"
+  "timestamp_procesare": "2026-05-22T10:54:44.641466Z"
 }
