@@ -1,5 +1,5 @@
 {
-  "data_actualizare": "2026-05-28",
+  "data_actualizare": "2026-06-01",
   "fagaras": {
     "peste_1800": 3,
     "sub_1800": 2
@@ -9,7 +9,7 @@
     "sub_1800": 2
   },
   "rodnei": {
-    "peste_1800": 3,
+    "peste_1800": 2,
     "sub_1800": 2
   },
   "calimani": {
@@ -116,5 +116,5 @@
     "peste_1800": 0,
     "sub_1800": 0
   },
-  "timestamp_procesare": "2026-05-31T10:19:19.988907Z"
+  "timestamp_procesare": "2026-06-01T13:41:33.310692Z"
 }
