@@ -25,23 +25,23 @@
     "sub_1800": 2
   },
   "tarcu": {
-    "peste_1800": 3,
+    "peste_1800": 2,
     "sub_1800": 2
   },
   "godeanu": {
-    "peste_1800": 3,
+    "peste_1800": 2,
     "sub_1800": 2
   },
   "parang": {
-    "peste_1800": 3,
+    "peste_1800": 2,
     "sub_1800": 2
   },
   "sureanu": {
-    "peste_1800": 3,
+    "peste_1800": 2,
     "sub_1800": 2
   },
   "retezat": {
-    "peste_1800": 3,
+    "peste_1800": 2,
     "sub_1800": 2
   },
   "occidentali": {
@@ -116,5 +116,5 @@
     "peste_1800": 0,
     "sub_1800": 0
   },
-  "timestamp_procesare": "2026-06-02T12:08:45.482887Z"
+  "timestamp_procesare": "2026-06-03T12:45:12.156035Z"
 }
