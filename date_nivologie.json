@@ -2,11 +2,11 @@
   "data_actualizare": "2026-06-04",
   "fagaras": {
     "peste_1800": 1,
-    "sub_1800": 0
+    "sub_1800": 1
   },
   "bucegi": {
     "peste_1800": 1,
-    "sub_1800": 0
+    "sub_1800": 1
   },
   "rodnei": {
     "peste_1800": 0,
@@ -116,5 +116,5 @@
     "peste_1800": 0,
     "sub_1800": 0
   },
-  "timestamp_procesare": "2026-06-29T12:38:46.301105Z"
+  "timestamp_procesare": "2026-06-30T11:13:39.793367Z"
 }
