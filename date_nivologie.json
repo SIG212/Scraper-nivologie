@@ -89,7 +89,7 @@
     "sub_1800": 0
   },
   "postavaru": {
-    "peste_1800": 0,
+    "peste_1800": 1,
     "sub_1800": 0
   },
   "piatra_mare": {
@@ -116,5 +116,5 @@
     "peste_1800": 0,
     "sub_1800": 0
   },
-  "timestamp_procesare": "2026-08-15T08:33:02.472207Z"
+  "timestamp_procesare": "2026-08-16T08:33:40.083201Z"
 }
