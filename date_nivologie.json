@@ -9,59 +9,59 @@
     "sub_1800": 0
   },
   "rodnei": {
-    "peste_1800": 0,
+    "peste_1800": 1,
     "sub_1800": 0
   },
   "calimani": {
-    "peste_1800": 0,
+    "peste_1800": 1,
     "sub_1800": 0
   },
   "bistritei": {
-    "peste_1800": 0,
+    "peste_1800": 1,
     "sub_1800": 0
   },
   "ceahlau": {
-    "peste_1800": 0,
+    "peste_1800": 1,
     "sub_1800": 0
   },
   "tarcu": {
-    "peste_1800": 0,
+    "peste_1800": 1,
     "sub_1800": 0
   },
   "godeanu": {
-    "peste_1800": 0,
+    "peste_1800": 1,
     "sub_1800": 0
   },
   "parang": {
-    "peste_1800": 0,
+    "peste_1800": 1,
     "sub_1800": 0
   },
   "sureanu": {
-    "peste_1800": 0,
+    "peste_1800": 1,
     "sub_1800": 0
   },
   "retezat": {
-    "peste_1800": 0,
+    "peste_1800": 1,
     "sub_1800": 0
   },
   "occidentali": {
-    "peste_1800": 0,
+    "peste_1800": 1,
     "sub_1800": 0
   },
   "apuseni": {
-    "peste_1800": 0,
+    "peste_1800": 1,
     "sub_1800": 0
   },
   "vladeasa": {
-    "peste_1800": 0,
+    "peste_1800": 1,
     "sub_1800": 0
   },
   "bihor": {
-    "peste_1800": 0,
+    "peste_1800": 1,
     "sub_1800": 0
   },
   "muntele_mare": {
-    "peste_1800": 0,
+    "peste_1800": 1,
     "sub_1800": 0
   },
   "gilau": {
@@ -73,23 +73,23 @@
     "sub_1800": 0
   },
   "iezer_papusa": {
-    "peste_1800": 0,
+    "peste_1800": 1,
     "sub_1800": 0
   },
   "hasmas": {
-    "peste_1800": 0,
+    "peste_1800": 1,
     "sub_1800": 0
   },
   "ciucas": {
-    "peste_1800": 0,
+    "peste_1800": 1,
     "sub_1800": 0
   },
   "baiului": {
-    "peste_1800": 0,
+    "peste_1800": 1,
     "sub_1800": 0
   },
   "postavaru": {
-    "peste_1800": 0,
+    "peste_1800": 1,
     "sub_1800": 0
   },
   "piatra_mare": {
@@ -105,16 +105,16 @@
     "sub_1800": 0
   },
   "piatra_craiului": {
-    "peste_1800": 0,
+    "peste_1800": 1,
     "sub_1800": 0
   },
   "leaota": {
-    "peste_1800": 0,
+    "peste_1800": 1,
     "sub_1800": 0
   },
   "cernei": {
     "peste_1800": 0,
     "sub_1800": 0
   },
-  "timestamp_procesare": "2026-09-27T13:41:33.815926Z"
+  "timestamp_procesare": "2026-09-28T16:36:23.224553Z"
 }
